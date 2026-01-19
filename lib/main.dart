@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:notes_app_test/views/card_view.dart';
+import 'package:notes_app_test/views/Notes_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,9 +15,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         brightness: Brightness.dark,
-        scaffoldBackgroundColor: Colors.black,
+        //scaffoldBackgroundColor: Colors.black,
       ),
-      home: CardView(),
+      home: NotesView(),
     );
   }
 }
