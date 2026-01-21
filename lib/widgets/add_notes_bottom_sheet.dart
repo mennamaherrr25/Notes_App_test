@@ -31,14 +31,12 @@ class AddNotesBottomSheet extends StatelessWidget {
 
             Padding(
               padding: const EdgeInsets.only(bottom: 16, left: 16, right: 16),
-              child: GestureDetector(
-                onTap: () {},
-                child: CustomTextField(
-                  title: 'Content',
-                  maxLines: 5,
-                  // topPadding: 40,
-                  // bottomPadding: 40,
-                ),
+
+              child: CustomTextField(
+                title: 'Content',
+                maxLines: 5,
+                // topPadding: 40,
+                // bottomPadding: 40,
               ),
             ),
 
