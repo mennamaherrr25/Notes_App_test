@@ -9,7 +9,8 @@ class AddNotesBottomSheet extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: EdgeInsets.only(
-        bottom: MediaQuery.of(context).viewInsets.bottom,
+        
+       bottom: MediaQuery.of(context).viewInsets.bottom,
       ), // 👈 الكيبورد),
       child: SingleChildScrollView(
         child: Column(
